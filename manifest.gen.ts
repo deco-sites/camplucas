@@ -2,12 +2,16 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $$$$$$$$$0 from "./actions/camp/setCommet.ts";
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$2 from "./loaders/availableIcons.ts";
-import * as $$$3 from "./loaders/icons.ts";
+import * as $$$3 from "./loaders/camp/getAllEvents.ts";
+import * as $$$4 from "./loaders/camp/getComment.ts";
+import * as $$$5 from "./loaders/icons.ts";
 import * as $$$0 from "./loaders/Layouts/ProductCard.tsx";
 import * as $$$1 from "./loaders/List/Sections.tsx";
+import * as $$$$$$$0 from "./matchers/utm.ts";
 import * as $$$$$$0 from "./sections/Animation/Animation.tsx";
 import * as $$$$$$1 from "./sections/Cards/IconCardsCarousel.tsx";
 import * as $$$$$$2 from "./sections/Cards/IconCardsCarouselWithImage.tsx";
@@ -61,7 +65,9 @@ import * as $$$$$$48 from "./sections/Theme/Theme.tsx";
 const manifest = {
   "loaders": {
     "site/loaders/availableIcons.ts": $$$2,
-    "site/loaders/icons.ts": $$$3,
+    "site/loaders/camp/getAllEvents.ts": $$$3,
+    "site/loaders/camp/getComment.ts": $$$4,
+    "site/loaders/icons.ts": $$$5,
     "site/loaders/Layouts/ProductCard.tsx": $$$0,
     "site/loaders/List/Sections.tsx": $$$1,
   },
@@ -115,6 +121,12 @@ const manifest = {
     "site/sections/Social/InstagramPosts.tsx": $$$$$$46,
     "site/sections/Social/WhatsApp.tsx": $$$$$$47,
     "site/sections/Theme/Theme.tsx": $$$$$$48,
+  },
+  "matchers": {
+    "site/matchers/utm.ts": $$$$$$$0,
+  },
+  "actions": {
+    "site/actions/camp/setCommet.ts": $$$$$$$$$0,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
